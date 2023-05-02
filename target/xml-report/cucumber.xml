@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="22.79" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="locators" name="TC01 locators" time="22.53">
+<testsuite name="Cucumber" time="9.029" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="checkbox ve radio button" name="TC03 basketball" time="8.711">
 <system-out><![CDATA[
-Given kullanici "https://testcenter.techproeducation.com/index.php?page=form-authentication" adresine gider.passed
-And 3 saniye bekler.........................................................passed
-And kullanici adini gir.....................................................passed
-And kullanici sifresini gir.................................................passed
-When submit butonuna tikla..................................................passed
-Then giris yapildigini test et..............................................passed
+Given kullanici "https://testcenter.techproeducation.com/index.php?page=radio-buttons" adresine gider.passed
+And "Football" secili degilse sec...........................................passed
+And sayfayi acik tutar......................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
